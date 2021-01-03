@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Typography  Start */
+html {
+  font-size: 10px;
+}
+body {
+  line-height: 1.6;
+  overflow-x: hidden;
+  box-sizing: inherit;
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  color: #333;
+}
+h1,
+h2,
+h3,
+p {
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Typography  End*/
+
+/* Headings Styles Start */
+.h-primary,
+.h-secondary {
+  display: block;
+}
+.h-primary {
+  font-size: 8rem;
+}
+.h-secondary {
+  font-size: 4rem;
+}
+.h-tertiary {
+  font-size: 3rem;
+}
+/* Headings Styles End */
+
+/* Buttons Styles Start */
+.btn {
+  font-size: 1.8rem;
+  padding: .5em .8em;
+  border-radius: .2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.5em 0;
+  display: inline-block;
+}
+.btn--fill {
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  color: #fff;
+}
+
+/* Buttons Styles End */
+
+
+.t-orange {
+  color: orange;
+}
+
+/* Header Section Start */
+.header {
+  background-image: url(./images/top-banner.png);
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.header__left,
+.header__right {
+  float: left;
+}
+/* .header */
+.header__left {
+  width: 50%;
+  margin-top: 10rem;
+  margin-right: 5%;
+}
+.header .h-secondary {
+  margin-top: -3rem;
+}
+.header__left .h-tertiary {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.header__left p {
+  font-size: 1.8rem;
+  width: 95%;
+  text-align: justify;
+}
+.header__left .btn.btn--fill{
+  margin-top: 2rem;
+}
+
+
+.header__right {
+  width: 45%;
+  margin-top: 5rem;
+}
+.header__right img {
+  width: 100%;
+}
