@@ -24,14 +24,14 @@ h3,
 p {
   font-weight: 300;
 }
-a{
+a {
   text-decoration: none;
 }
 img {
   width: 100%;
 }
 section {
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 .container {
@@ -43,7 +43,7 @@ section {
 
 /* Headings Styles Start */
 .h-primary,
-.h-secondary, .h-tertiary {
+.h-secondary {
   display: block;
 }
 .h-primary {
@@ -54,15 +54,17 @@ section {
 }
 .h-tertiary {
   font-size: 3rem;
-  
+}
+.h-quaternary {
+  font-size: 2.2rem;
 }
 /* Headings Styles End */
 
 /* Buttons Styles Start */
 .btn {
   font-size: 1.8rem;
-  padding: .5em .8em;
-  border-radius: .2em;
+  padding: 0.5em 0.8em;
+  border-radius: 0.2em;
   font-weight: bold;
   text-transform: uppercase;
   margin: 1.5em 0;
@@ -75,9 +77,15 @@ section {
 
 /* Buttons Styles End */
 
-
 .t-orange {
   color: orange;
+}
+.t-bold {
+  font-weight: bold;
+}
+
+.t-center{
+  text-align: center;
 }
 
 /* Header Section Start */
@@ -86,7 +94,7 @@ section {
   height: 600px;
   background-repeat: no-repeat;
 }
-.half-width{
+.half-width {
   float: left;
   width: 45%;
 }
@@ -102,30 +110,63 @@ section {
   margin-top: 4rem;
   margin-bottom: 1.5rem;
 }
-.header__left p , .dream-area__right p{
+p {
   font-size: 1.8rem;
   width: 95%;
   text-align: justify;
 }
-.header__left .btn.btn--fill{
+.header__left .btn.btn--fill {
   margin-top: 2rem;
 }
-
 
 .header__right {
   margin-top: 5rem;
 }
 
-
 /* Dream area starts */
 .dream-area {
-  background:url(./images/dream-bg.png);
+  background: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
   height: 500px;
-
 }
 .dream-area__left img {
   width: 70%;
 }
 
+/* Experience area */
+.experiences-area {
+  margin: 0 auto;
+  height: 500px;
+  background: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experiences-area .half-width {
+  width: 38%;
+  margin: 0 4%;
+  margin-top: 3rem;
+  padding: 10px;
+  box-shadow: 6px 8px 25px grey;
+  height: 300px;
+  background:#fff;
+ 
+}
+
+
+.experiences-area .half-width:first-of-type{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+.experiences-area .half-width:last-of-type{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+
+footer p {
+  padding:3rem;
+}
