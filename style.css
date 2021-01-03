@@ -27,6 +27,12 @@ p {
 a{
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
+section {
+  padding: 10rem 0;
+}
 
 .container {
   width: 95%;
@@ -37,7 +43,7 @@ a{
 
 /* Headings Styles Start */
 .h-primary,
-.h-secondary {
+.h-secondary, .h-tertiary {
   display: block;
 }
 .h-primary {
@@ -48,6 +54,7 @@ a{
 }
 .h-tertiary {
   font-size: 3rem;
+  
 }
 /* Headings Styles End */
 
@@ -79,13 +86,12 @@ a{
   height: 600px;
   background-repeat: no-repeat;
 }
-.header__left,
-.header__right {
+.half-width{
   float: left;
+  width: 45%;
 }
 /* .header */
 .header__left {
-  width: 50%;
   margin-top: 10rem;
   margin-right: 5%;
 }
@@ -96,7 +102,7 @@ a{
   margin-top: 4rem;
   margin-bottom: 1.5rem;
 }
-.header__left p {
+.header__left p , .dream-area__right p{
   font-size: 1.8rem;
   width: 95%;
   text-align: justify;
@@ -107,9 +113,19 @@ a{
 
 
 .header__right {
-  width: 45%;
   margin-top: 5rem;
 }
-.header__right img {
-  width: 100%;
+
+
+/* Dream area starts */
+.dream-area {
+  background:url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+
 }
+.dream-area__left img {
+  width: 70%;
+}
+
