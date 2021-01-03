@@ -1,2 +1,2 @@
 # simple-portfolio
-A simple portfolio for practice purpose
+## A simple portfolio made for practice purpose
